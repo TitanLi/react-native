@@ -3,6 +3,9 @@ import { Platform, StyleSheet, Text, TextInput, ScrollView, Image, View } from '
 
 /*
   ScrollView 是一個通用的可滾動容器
+  
+  如要水平滾動可使用horizontal來控制
+  <ScrollView horizontal={true}></ScrollView>
 */
 export default class App extends Component {
   render() {
