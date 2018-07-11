@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, TextInput, ScrollView, Image, View } from 'react-native';
 
+/*
+  ScrollView 是一個通用的可滾動容器
+*/
 export default class App extends Component {
   render() {
     return (
