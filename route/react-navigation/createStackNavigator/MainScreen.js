@@ -8,7 +8,9 @@ export default class App extends Component {
         <Text style={styles.text}>Hello</Text>
         <Button
           title="Go to Details"
-          onPress={() => this.props.navigation.navigate('Profile')}
+          onPress={() =>
+            navigate('Profile', { name: 'Jane' })
+          }
         />
       </View>
     );
@@ -16,7 +18,7 @@ export default class App extends Component {
 }
 
 const styles = StyleSheet.create({
-  text : {
-    fontSize:36
+  text: {
+    fontSize: 36
   }
 })
